@@ -1,0 +1,32 @@
+<html>
+    <body>
+        <script>
+
+         //Aplicação calculadora Dinâmica !!
+
+         var numeroInicial=prompt('informe o número da operação');
+         var sinal=prompt('informe o sinal da operação')
+         while(sinal!='+' && sinal!='-' && sinal!='*' && sinal!='/'){
+            alert('por favor informe um sinal válido')
+            var sinal=prompt('informe o sinal da operação');
+         }
+
+         var numeroFinal=prompt('Informe o número Final');
+
+         var resultadoFinal=0;
+         if(sinal=='+'){
+            resultadoFinal=numeroInicial+numeroFinal;
+         }else if(sinal=='-'){
+            resultadoFinal=numeroInicial-numeroFinal;
+         }else if(sinal=='*'){
+            resultadoFinal=numeroInicial*numeroFinal;
+         }else if(sinal=='/'){
+            resultadoFinal=numeroInicial/numeroFinal;
+         }
+
+         alert('O reulstado final é :'+resultadoFinal)
+           
+          
+        </script>
+    </body>
+</html>
