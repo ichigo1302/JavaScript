@@ -1,0 +1,19 @@
+<html>
+    <body>
+        <script>
+
+         //Calculadora de Idade 
+
+         var anoNascimento=prompt("por favor informe o ano que você nasceu");
+         while(anoNascimento>=2022){
+            alert('Por favor informe o ano corretamente');
+         }
+         var anoAtual=prompt('Por favor informe o ano que você está');
+
+         var idadeFinal=anoAtual-anoNascimento ;
+
+         alert("A sua idade final é :"+idadeFinal);
+          
+        </script>
+    </body>
+</html>
